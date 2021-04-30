@@ -1,0 +1,53 @@
+.btn:hover {
+  background-color: rgb(253, 214, 221);
+}
+
+.text{
+  color:black;
+}
+
+.btn-round{
+  border-radius: 25px!important;
+
+}
+
+.btn {
+  background-color: white; 
+  border-style: outset;
+  border-width: 5px;
+  border: pink;
+  border-color: gray;
+  border-style: solid;
+  outline: pink;
+  color: #555555; 
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+  border-radius: 25px;
+
+  margin-right: 15px;
+}
+
+.active {
+  /* background-color: rgb(255, 224, 255); */
+  border-color: pink;
+  color: rgb(255, 116, 139);
+  font-weight: bold;
+}
+
+btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  background-color: white;
+  border-color: pink;
+  color: rgb(255, 116, 139);
+  
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active, .show > .btn-outline-danger.dropdown-toggle {
+  background-color: white;
+  border-color: pink;
+  color: rgb(255, 116, 139);
+}
+
